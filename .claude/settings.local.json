@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__tavily__tavily_extract",
+      "mcp__serpapi__google",
+      "mcp__tavily__tavily_search",
+      "mcp__tavily__tavily_research"
+    ]
+  }
+}

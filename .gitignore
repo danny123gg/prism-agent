@@ -1,0 +1,59 @@
+# Learn Claude Code SDK - .gitignore
+
+# ===== 环境变量和敏感信息 =====
+.env
+.env.local
+.env.production
+*.key
+*.pem
+
+# ===== Python =====
+# 字节码和缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 虚拟环境
+venv/
+ENV/
+env/
+.venv
+
+# 测试和覆盖率
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+
+# ===== 项目特定目录 =====
+# Agent 运行日志（本项目特有）
+traces/
+audit_logs/
+
+# MCP 浏览器缓存
+.playwright-mcp/
+
+# ===== 前端（web/frontend） =====
+node_modules/
+dist/
+build/
+.cache/
+
+# ===== IDE 和编辑器 =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===== 操作系统 =====
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ===== 其他 =====
+*.log
+*.pid
+*.seed
+*.pid.lock
