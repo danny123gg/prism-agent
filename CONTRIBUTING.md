@@ -1,6 +1,6 @@
 # 如何贡献
 
-感谢你对 Learn Claude Agent SDK 项目的关注！
+感谢你对 Prism Agent 项目的关注！
 
 这是一个学习笔记性质的开源教程项目，旨在通过渐进式的方式帮助开发者理解 Claude Agent SDK 的工作原理。我们欢迎任何形式的贡献。
 
@@ -71,8 +71,8 @@
 # Fork 本仓库到你的 GitHub 账号
 
 # Clone 你的 Fork
-git clone https://github.com/你的用户名/learn-claude-agent-sdk.git
-cd learn-claude-agent-sdk
+git clone https://github.com/你的用户名/prism-agent.git
+cd prism-agent
 ```
 
 ### 2. 安装依赖
