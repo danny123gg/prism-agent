@@ -22,9 +22,9 @@
 
 这不是官方教程，只是一个人的学习笔记。如果有错误或更好的理解方式，欢迎指正。
 
-![Demo 1](assets/动画1.gif)
+![Demo 1](assets/demo-1.gif)
 
-![Demo 2](assets/动画2.gif)
+![Demo 2](assets/demo-2.gif)
 
 > 如果你只是想快速体验，可以直接部署后去前台体验，尤其是看 Playground——那里能直观地看到 Agent 的运作过程。
 >
@@ -43,8 +43,8 @@
 ### 安装
 
 ```bash
-git clone https://github.com/yourname/learn-claude-agent-sdk.git
-cd learn-claude-agent-sdk
+git clone https://github.com/danny123gg/prism-agent.git
+cd prism-agent
 
 pip install -r requirements.txt
 ```
@@ -443,7 +443,7 @@ AI 不再是实验室里的研究项目，不再是少数专家的专属领域�
 ## 项目结构
 
 ```
-learn-claude-agent-sdk/
+prism-agent/
 ├── src/              # 7 个核心阶段 + 1 个扩展主题
 ├── docs/             # 配套文档
 ├── web/              # Web 应用
